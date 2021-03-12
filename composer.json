@@ -20,6 +20,10 @@
         "issues": "https://github.com/DTIPMAM/yii-brazil-cns-validator/issues?state=open",
         "source": "https://github.com/DTIPMAM/yii-brazil-cns-validator"
     },
+    "repositories": [
+        {"type": "composer", "url": "https://repo.packagist.com/pmam/"},
+        {"packagist.org": false}
+    ],
     "require": {
         "php": "^7.4|^8.0",
         "yiisoft/friendly-exception": "^1.0"
