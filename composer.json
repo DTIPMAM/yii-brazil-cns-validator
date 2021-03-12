@@ -1,0 +1,52 @@
+{
+    "name": "dtipmam/yii-brazil-cns-validator",
+    "type": "library",
+    "description": "Yii Brazil CNS validator",
+    "keywords": [
+        "brazil",
+        "sus",
+        "cns",
+        "validator"
+    ],
+    "homepage": "https://pm.am.gov.br/",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "georgezim85",
+            "email": "devgeo85@gmail.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/DTIPMAM/yii-brazil-cns-validator/issues?state=open",
+        "source": "https://github.com/DTIPMAM/yii-brazil-cns-validator"
+    },
+    "require": {
+        "php": "^7.4|^8.0",
+        "yiisoft/friendly-exception": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "spatie/phpunit-watcher": "^1.23",
+        "vimeo/psalm": "^4.3",
+        "roave/infection-static-analysis-plugin": "^1.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dtipmam\\YiiValidator\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Dtipmam\\YiiValidator\\Tests\\": "tests"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "scripts": {
+        "test": "phpunit --testdox --no-interaction",
+        "test-watch": "phpunit-watcher watch"
+    }
+}
